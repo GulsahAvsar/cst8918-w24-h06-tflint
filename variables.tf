@@ -6,6 +6,7 @@ variable "label_prefix" {
 
 variable "region" {
   type    = string
+  description = "The deployment region for the infrastructure"
   default = "canadacentral"
 }
 
